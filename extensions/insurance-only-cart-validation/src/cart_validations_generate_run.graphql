@@ -1,0 +1,14 @@
+query CartValidationsGenerateRunInput {
+  cart {
+    lines {
+      merchandise {
+        __typename
+        ... on ProductVariant {
+          product {
+            productType
+          }
+        }
+      }
+    }
+  }
+}

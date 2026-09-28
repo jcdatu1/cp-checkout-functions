@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "export": "cart-validations-generate-run",
+    "target": "cart.validations.generate.run",
+    "input": {
+      "cart": {
+        "lines": [
+          {
+            "merchandise": {
+              "__typename": "ProductVariant",
+              "product": { "productType": "Insurance" }
+            }
+          },
+          {
+            "merchandise": {
+              "__typename": "ProductVariant",
+              "product": { "productType": "T-Shirt" }
+            }
+          }
+        ]
+      }
+    },
+    "output": {
+      "operations": [
+        {
+          "validationAdd": {
+            "errors": []
+          }
+        }
+      ]
+    }
+  }
+}

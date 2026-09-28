@@ -1,0 +1,4 @@
+{
+  "name": "Insurance-only cart validation",
+  "description": "Blocks checkout when the cart contains only insurance (shipping protection) products."
+}

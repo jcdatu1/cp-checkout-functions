@@ -1,0 +1,17 @@
+{
+  "name": "cp-checkout-functions",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "tsc --noEmit"
+  },
+  "workspaces": [
+    "extensions/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
